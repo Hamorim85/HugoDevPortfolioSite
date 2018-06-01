@@ -15,6 +15,9 @@ page '/*.txt', layout: false
 
 activate :livereload
 
+activate :bootstrap_navbar
+
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
@@ -45,4 +48,6 @@ activate :livereload
 # configure :build do
 #   activate :minify_css
 #   activate :minify_javascript
+#   activate :asset_hash
+#   activate :relative_assets
 # end
