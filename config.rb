@@ -17,6 +17,14 @@ activate :livereload
 
 activate :bootstrap_navbar
 
+activate :deploy do |deploy|
+  deploy.method   = :ftp
+  deploy.host            = ''
+  deploy.path            = ''
+  deploy.user            = ''
+  deploy.password        = ''
+end
+
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
