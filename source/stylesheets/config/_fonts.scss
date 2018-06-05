@@ -1,9 +1,12 @@
-// Import Google fonts
-// @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700|Montserrat:300,400,500,600,700,900");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700|Montserrat:300,400,500,600,700,900");
 
-// // Define fonts for body and headers
-// $body-font: "Montserrat", "Helvetica", "sans-serif";
-// $headers-font: "Crimson Text", "serif";
+body {
+  font-family: "Montserrat", "Helvetica", "sans-serif";
+};
 
+
+h1, h2, h3, h4 {
+  font-family: "Crimson Text", "serif";
+}
 
 
